@@ -1,6 +1,6 @@
 body {
 	font-family: 'ZCOOL QingKe HuangYou', cursive;
-	height: 4000px;
+	/*height: 4000px;*/
 }
 
 * {
@@ -109,11 +109,11 @@ nav {
 .bottom-card{
 	background: #a3a3c2;
 	position: relative;
-	top: -30px;
+	top: -10px;
 }
 
 .specialize-cards {
-	width: 60%;
+	width: 80%;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto; /*?????*/
@@ -166,12 +166,97 @@ nav {
 
 }
 
+
+.brand-slider {
+	width: 90%;
+	margin: 0 auto; 
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+.brand-slider h4{
+	text-transform: uppercase;
+ 	font-size: 22px;
+ 	background: #cc7a00;
+ 	display: inline-block; 
+ 	padding: 0 6px;
+ 	margin: 30px 0;
+}
+
+.brand-slider p{
+	font-size: 20px;
+	
+	margin: 20px 20px;
+}
+
+.brand-slider img {
+	
+	margin: 20px 30px;
+
+}
+
+.owl-carousel img {
+	max-height: 30px;
+	max-width: 30px;
+	}
+
+	footer {
+		background: #414146;
+		padding: 30px 30px; 
+		color: #fff;
+		
+		
+	}
+
+	footer h4 {
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+
+    .footer-container{
+    	width: 90%
+    	margin: 0 auto;
+    	display: grid;
+		grid-template-columns: 35% 30% 25%;
+		grid-column-gap: 3%;
+
+    }
+    
+     .about-us a{
+    	background: #000;
+    	border-bottom: 2px solid #cc7a00;
+    	color: #fff;
+    	font-size: 15px;
+    	padding: 15px;
+    	margin-top: 30px;
+    	margin-bottom: 30px;
+    	display: inline-block;
+    	
+    }
+
+    .images {
+    	margin-top: 10px;
+    }
+
+    .tweets p{
+    	margin-top: 20px;
+    }
+
+    .soc h4{
+    	float: left;
+    	display: inline-block;
+    	margin-right: 10px;
+    	padding-top: 5px;
+    }
+
 @media screen and (max-width: 420px) {
-	.header-container {
-		width: 100%;
+	.header {
+		width: 90%;
 		display: flex;
 		justify-content: space-around; /*как браузер распределит 
 		между и воокруг элемента контента вдоль оси и контейнера*/
+	    padding: 10px 0;
 	}
 
 	.main-menu {
@@ -223,4 +308,63 @@ nav {
 		right: 15px;
 
 	}
+
+	.top-slide {
+		background-size: cover;
+		background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.top-slide h2 {
+	font-size: 32px;
+}
+
+.top-slide p {
+    font-size: 16px;
+}
+
+.specialize-container h3 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.specialize-container p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+
+.specialize-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	
+}
+
+.bottom-card {
+	width: 150px;
+	
+}
+
+.first-p {
+	margin: 0 auto; 
+}
+
+.card {
+	margin: 0 auto;
+}
+
+.posts{
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto;
+
+}
+
+
 }

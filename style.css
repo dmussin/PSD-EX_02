@@ -8,7 +8,7 @@ body {
     margin: 0; 
 }
 
-.header-container li {
+ li {
 	list-style: none; 
 	display: flex; 
 	margin-right: -10px;
@@ -47,11 +47,11 @@ a {
 	display: none;
 }
 
-.header-container ul {
+ ul {
 	display: flex;
 }
 
-.header-container nav{
+ nav{
 	margin-top: 10px;
 }
 
@@ -322,6 +322,7 @@ font-weight: bold;}
 		width: 100%;
 		display: block;
 		font-size: 12px;
+		
 	}
 
 	.main-menu a{
@@ -361,12 +362,12 @@ font-weight: bold;}
 		margin-right: -65px;
 	}
 
-	.main-menu {
+	/*.main-menu {
 		position: relative; 
 		top: 30px;
 		right: 15px;
 
-	}
+	}*/
 
 	.top-slide {
 		background-size: cover;
@@ -455,7 +456,7 @@ font-weight: bold;}
 
 .contacts {
 	padding-top: 10px;
-	margin: 0 auto;
+	
 	
 }
 
